@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form .form{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 2px 0px 2px #F57D1F;
+    border: 1px solid #F57D1F;
+}
+
+.contact-form .form h3{
+    color: #F57D1F;
+    text-align: center;
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.contact-form .form-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+}
+
+.contact-form .form-elements label{
+    font-family: "Rethink Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    color: #000000;
+    margin-top: 10px;
+}
+
+.contact-form .form-elements input{
+    color: #000000;
+    outline: none;
+}
+
+.contact-form .form-elements button{
+    margin-top: 10px;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #F57D1F;
+    border: none;
+    padding: 12px;
+    font-weight: 600;
+}

@@ -1,0 +1,70 @@
+.login-background{
+    width: 100%;
+    height: 100vh;
+    background: to left , blue , violet;
+}
+
+.login-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 1px 3px 38px -3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 3px 38px -3px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 3px 38px -3px rgba(0, 0, 0, 0.75);
+    background-image: url('../../assets/c3.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-left-p {
+    color: #fff;
+    text-align: justify;
+    padding: 0px 50px 0px 10px;
+    font-weight: 600;
+}
+
+.login-left-h1 {
+    color: #fff;
+    font-weight: 800;
+    padding: 50px 0px 0px 0px;
+}
+
+.login-elements {
+    padding: 50px;
+    background-color: #fff;
+    width: 103%;
+    height: 500px;
+}
+
+.login-elements h3 {
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.login-elements input {
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.login-elements button {
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(to left, rgb(88, 88, 216), rgb(170, 82, 170));
+    border: none;
+    border-radius: 5px;
+}
+
+.forget-pass {
+    text-align: center;
+    font-size: 10px;
+    text-decoration: underline;
+    color: blue;
+}
